@@ -1,0 +1,10 @@
+services:
+  access_check.simple_system_page:
+    class: Drupal\simple_system_page_access\Access\SimpleSystemPageAccess
+    arguments: ['@plugin.manager.menu.link', '@menu.link_tree']
+    tags:
+      - { name: access_check, applies_to: _simple_system_page_access }
+  simple_system_page_access.route_subscriber:
+    class: Drupal\simple_system_page_access\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }

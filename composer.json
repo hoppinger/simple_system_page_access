@@ -1,0 +1,17 @@
+{
+  "name": "hoppinger/simple_system_page_access",
+  "description": "Disables access to system overview pages that have no accessible items under them.",
+  "type": "drupal-module",
+  "homepage": "https://github.com/hoppinger/simple_system_page_access",
+  "authors": [
+    {
+      "name": "Rolf van de Krol",
+      "email": "rolf@hoppinger.com",
+      "homepage": "https://github.com/rolfvandekrol",
+      "role": "Maintainer"
+    }
+  ],
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": {}
+}
