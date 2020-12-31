@@ -1,5 +1,5 @@
 name: Simple System Page Access
 type: module
 description: Disables access to system overview pages that have no accessible items under them.
-core: 8.x
+core_version_requirement: ^8 || ^9
 package: Hoppinger
